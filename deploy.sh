@@ -15,9 +15,10 @@ touch .nojekyll
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
-git init
+git init 
 git add -A
 git commit -m 'deploy'
+git branch -M main
 
 # if you are deploying to https://<USERNAME>.github.io
 git push -f git@github.com:mraffiramdhani/mraffiramdhani.github.io.git main
